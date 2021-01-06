@@ -1,224 +1,246 @@
-    body {
-        font-family: 'Roboto', sans-serif;
-        color: #000;
-    }
-    
-    .clear {
-        clear: both;
-    }
-    
-    header {}
-    
-    .menu {
-        margin: 37px 80px 0px 0px;
-        padding: 0px;
-        list-style: none;
-        text-align: right;
-    }
-    
-    .menu li {
-        display: inline;
-        margin: 5px 10px;
-    }
-    
-    .menu li a {
-        color: #000;
-        text-decoration: none;
-    }
-    
-    .menu li:hover a {
-        color: orange;
-    }
-    
-    #intro_sec {
-        margin-top: 40px;
-    }
-    
-    .half-sec {
-        width: 40%;
-        padding-left: 2%;
-        margin-left: 5%;
-        float: left;
-    }
-    
-    .half-sec img {
-        width: 100%;
-        height: auto;
-    }
-    
-    h1 {
-        font-family: 'Bebas Neue', cursive;
-        font-size: 80px;
-        margin: 0px;
-    }
-    
-    h1.text-name {
-        color: #FF8367;
-    }
-    
-    .p-text {
-        margin-bottom: 60px;
-    }
-    
-    #about_sec {
-        margin-top: 80px;
-    }
-    
-    .hire-btn {
-        color: #ffffff;
-        text-decoration: none;
-        padding: 20px 60px;
-        background-image: linear-gradient(#FF8063, #F46060);
-        border-radius: 5px;
-    }
-    
-    .hire-btn img {
-        width: 20px;
-        height: auto;
-        position: relative;
-        top: 4px;
-        margin-right: 8px;
-    }
-    
-    #work_section {
-        padding: 80px 20px;
-        background-color: #E5E5E5;
-    }
-    
-    #work_section h2 {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    
-    .color-text {
-        color: #F46060;
-    }
-    
-    .work-box {
-        width: 26%;
-        float: left;
-        box-shadow: 10px 10px 40px grey;
-        border-radius: 10px;
-        background-color: #fff;
-        padding: 10px;
-        margin: 0px 2%;
-        min-height: 320px;
-    }
-    
-    .work-box img {
-        width: 100%;
-        height: auto;
-    }
-    
-    .work-box h4 {
-        font-size: 20px;
-        font-weight: bold;
-        margin: 5px;
-    }
-    
-    #contact_section {}
-    
-    .inquery-box {
-        background-image: url(images/inquiry-bg.png);
-        background-repeat: no-repeat;
-        background-position: 0px 0px;
-        background-size: contain;
-        width: 906px;
-        margin: 80px auto;
-    }
-    
-    .inquery-box h3 {
-        color: #fff;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 64px;
-        float: left;
-        margin-left: 40px;
-    }
-    
-    .inquery-box a {
-        display: inline-block;
-        float: right;
-        margin-top: 66px;
-        margin-right: 120px;
-    }
-    
-    footer {
-        text-align: center;
-    }
-    
-    footer p {
-        font-size: 24px;
-        font-family: 'Bebas Neue', cursive;
-        color: #696871;
-    }
-    
-    footer a {
-        font-size: 36px;
-        font-family: 'Roboto', sans-serif;
-        color: #363958;
-        text-decoration: none;
-    }
-    
-    .social-link {
-        list-style: none;
-        padding: 0px;
-        margin: 40px 0px;
-    }
-    
-    .social-link li {
-        width: 40px;
-        height: 40px;
-        display: inline-block;
-        margin-left: 10px;
-    }
-    
-    .social-link li a {}
-    
-    .social-link li a img {
-        width: 100%;
-        height: auto;
-    }
-    
-    #quote_section {
-        max-width: 600px;
-        margin: 40px auto 80px;
-    }
-    
-    #quote_section h2 {
-        font-size: 36px;
-        text-align: left;
-        border-bottom: 5px solid;
-        border-image: linear-gradient(#FF8063, #F46060);
-        border-image-slice: 1;
-        width: 22%;
-    }
-    
-    #quote_section form {}
-    
-    #quote_section form label {
-        display: block;
-        font-size: 18px;
-        font-family: 'Bebas Neue', cursive;
-    }
-    
-    #quote_section form input {
-        width: 80%;
-        height: 35px;
-        margin-bottom: 20px;
-        border: 3px solid #fd7961;
-        border-radius: 8px;
-    }
-    
-    #quote_section form textarea {
-        width: 80%;
-        height: 120px;
-        margin-bottom: 20px;
-        border: 3px solid #fd7961;
-        border-radius: 8px;
-    }
-    
-    button.hire-btn {
-        font-size: 24px;
-        padding: 15px 40px;
-        display: block;
-    }
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+.clear {
+    clear: both;
+}
+
+header {}
+
+.menu {
+    margin: 37px 80px 0px 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: right;
+}
+
+.menu li {
+    display: inline;
+    margin: 5px 10px;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu li:hover a {
+    color: orange;
+}
+
+#intro_sec {
+    margin-top: 40px;
+}
+
+#intro_sec p {
+    max-width: 400px;
+}
+
+.half-sec {
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+.half-sec img {
+    width: 100%;
+    height: auto;
+    max-width: 465px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin: 0px;
+}
+
+h1.text-name {
+    color: #FF8367;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+}
+
+.p-text {
+    margin-bottom: 60px;
+    line-height: 1.5em;
+}
+
+#about_sec {
+    margin-top: 80px;
+}
+
+#about_sec p {
+    max-width: 465px;
+    text-align: justify;
+}
+
+.hire-btn {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 60px;
+    background-image: linear-gradient(#FF8063, #F46060);
+    border-radius: 5px;
+}
+
+.hire-btn img {
+    width: 20px;
+    height: auto;
+    position: relative;
+    top: 4px;
+    margin-right: 8px;
+}
+
+#work_section {
+    margin-top: 60px;
+    padding: 80px 20px;
+    background-color: #E5E5E5;
+}
+
+#work_section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.color-text {
+    color: #F46060;
+}
+
+.work-box {
+    width: 26%;
+    float: left;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 5%;
+    min-height: 320px;
+}
+
+.work-box img {
+    width: 100%;
+    height: auto;
+}
+
+.work-box h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.work-box p {
+    line-height: 1.5em;
+}
+
+#contact_section {}
+
+.inquery-box {
+    background-image: url(images/inquiry-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+    width: 906px;
+    margin: 80px auto;
+}
+
+.inquery-box h3 {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    float: left;
+    margin-left: 40px;
+}
+
+.inquery-box a {
+    display: inline-block;
+    float: right;
+    margin-top: 66px;
+    margin-right: 120px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    color: #696871;
+}
+
+footer a {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    text-decoration: none;
+}
+
+.social-link {
+    list-style: none;
+    padding: 0px;
+    margin: 40px 0px;
+}
+
+.social-link li {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-link li a {}
+
+.social-link li a img {
+    width: 100%;
+    height: auto;
+}
+
+#quote_section {
+    max-width: 600px;
+    margin: 40px auto 80px;
+}
+
+#quote_section h2 {
+    font-size: 36px;
+    text-align: left;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(#FF8063, #F46060);
+    border-image-slice: 1;
+    width: 22%;
+}
+
+#quote_section form {}
+
+#quote_section form label {
+    display: block;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#quote_section form input {
+    width: 80%;
+    height: 35px;
+    margin-bottom: 20px;
+    border: 3px solid #fd7961;
+    border-radius: 8px;
+}
+
+#quote_section form textarea {
+    width: 80%;
+    height: 120px;
+    margin-bottom: 20px;
+    border: 3px solid #fd7961;
+    border-radius: 8px;
+}
+
+button.hire-btn {
+    font-size: 24px;
+    padding: 15px 40px;
+    display: block;
+}
